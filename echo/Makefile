@@ -1,2 +1,2 @@
 all:
-	g++ main.cpp -o echo
+    g++ main.cpp -o server
