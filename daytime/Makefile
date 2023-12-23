@@ -1,2 +1,2 @@
 all:
-	g++ main.cpp -o daytime
+    g++ main.cpp -o server
