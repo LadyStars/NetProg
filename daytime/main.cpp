@@ -1,5 +1,3 @@
-#include <string>
-#include <unistd.h>
 #include <netinet/in.h>
 #include <iostream>
 #include <arpa/inet.h>
@@ -45,6 +43,7 @@ else {
     char daytime[50];
     recv(s, daytime, sizeof(daytime), 0);
     cout << "Daytime from server: " << daytime << endl;
+    cout << "Session close!" << endl;
     close(s);
     return 0;
 }
